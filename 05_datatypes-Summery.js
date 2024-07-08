@@ -23,13 +23,14 @@ console.log(anotherId);
 
 // Array, Objects, Functions
 
-const heros = ["shaktiman", "naagraj", "doga"];
-let myObj = {
+const heros = ["shaktiman", "naagraj", "doga"]; //array
+let myObj = {            //abojects
+
     name: "hitesh",
     age: 22,
 }
 
-const myFunction = function(){
+const myFunction = function(){      //function
     console.log("Hello world");
 }
 
