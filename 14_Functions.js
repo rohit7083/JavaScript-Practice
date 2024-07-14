@@ -16,16 +16,16 @@
 // // console.log("Result:",result);
 
 
-// function userLoginMsz(uname){
-//     if (!uname) {
-//         console.log("please enter username");
-//         return
-//     }
-//     return `${uname} just logged in `
-// }
+function userLoginMsz(uname){
+    if (!uname) {
+        console.log("please enter username");
+        return
+    }
+    return `${uname} just logged in `
+}
 
-// console.log(userLoginMsz("Rohit"));
-// // console.log(userLoginMsz()); 
+console.log(userLoginMsz("Rohit"));
+// console.log(userLoginMsz()); 
 
 // ====================== PART 2 =====================================
 
@@ -36,10 +36,10 @@
 // console.log(calculateCarPrice(200,400,5200,60));
 
 
-function calculateCarPrice(val1,val2,...num1) // REST operator (REST and SPREAD same )
-{
-    return num1
-}
+// function calculateCarPrice(val1,val2,...num1) // REST operator (REST and SPREAD same )
+// {
+//     return num1
+// }
 // console.log(calculateCarPrice(200,400,5200,60));
 
 const user={
@@ -47,9 +47,9 @@ const user={
     price:"15555"
 }
 
-function handleObject(anyObject){
-    console.log(`car name is ${anyObject.uname} and car priceis ${anyObject.price} `);
-}
+// function handleObject(anyObject){
+//     console.log(`car name is ${anyObject.uname} and car priceis ${anyObject.price} `);
+// }
 
 // handleObject(user);
 

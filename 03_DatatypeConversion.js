@@ -22,10 +22,10 @@ let booleanIsLoggedIn = Boolean(isLoggedIn)
 // "hitesh" => true
 
 
-let someNum=99;
-let StringNum = String(someNum)
-console.log(StringNum);
-console.log(typeof StringNum);
+// let someNum=99;
+// let StringNum = String(someNum)
+// console.log(StringNum);
+// console.log(typeof StringNum);
 
 
 
@@ -58,13 +58,16 @@ let str3 = str1 + str2
 // console.log(+true);
 // console.log(+"");
 
-let num1, num2, num3
+// let num1, num2, num3
 
-num1 = num2 = num3 = 2 + 2
+// num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
+let game1=90
 ++gameCounter;
+game1++;
 console.log(gameCounter);
+console.log(game1);
 
 // link to study
 // https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
