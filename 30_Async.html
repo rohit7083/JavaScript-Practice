@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>who r you</h1>
+    <button id="stop">stop</button>
+</body>
+<script>
+    const sayHi=function(){
+        console.log("Rohit");
+    }
+    const changText =function(){
+        document.querySelector('h1').
+        innerHTML="chnagetext has apply"
+
+    }
+
+    const changeme=
+    setTimeout(changText,2000)
+
+
+    document.querySelector('#stop').
+    addEventListener('click',function(){
+        clearTimeout(changeme)
+        console.log("Stopped");
+    })
+    
+</script>
+</html>

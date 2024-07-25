@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>wellcome in javascript series</h1>
+    <button id="start">Start</button>
+
+    <button id="stop">stop</button>
+</body>
+<script>
+
+    // setInterval(function(){
+    //     console.log("Rohit",Date.now());
+    // },1000)
+
+    //========== using 3 parameter 
+
+    // const sayDate=function(str){
+    //     console.log(str,Date.now());
+    // }
+    // setInterval(sayDate,1000,"Hello Everyone ")
+
+    //========== clearInterval (clear all / flush)
+    // const sayDate = function (str) {
+    //     console.log(str, Date.now());
+    // }
+    // const IntervalId = setInterval(sayDate, 1000, "Hello Everyone ")
+    // clearInterval(IntervalId)
+
+
+
+document.querySelector('#start').
+addEventListener('click' ,function(){
+  const printname=  function(){
+        console.log("Rohit",Date.now());
+    }})
+    const IntervalId = setInterval(sayDate, 1000)
+
+document.querySelector('#stop').
+addEventListener('click' ,function(){
+    clearInterval(IntervalId)
+
+})
+</script>
+
+</html>
